@@ -1,0 +1,89 @@
+body {
+  background-image: url("Blur.png");
+}
+
+.card {
+  padding: 20px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  width: 50%;
+  margin-left: auto;;
+  margin-right: auto;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+h1 {
+  text-align: center;
+  font-family: 'Proza Libre', sans-serif;
+}
+
+input[type=file]{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+}
+
+button {
+  background-color: #555555;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-family: 'Proza Libre', sans-serif;
+}
+
+
+input[type=button] {
+  background-color: #555555;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-family: 'Proza Libre', sans-serif;
+}
+
+#pre_take_buttons {
+  text-align: center;
+  font-family: 'Proza Libre', sans-serif;
+}
+
+#post_take_buttons {
+  text-align: center;
+  font-family: 'Proza Libre', sans-serif;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: 'Proza Libre', sans-serif;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+    font-family: 'Proza Libre', sans-serif;
+}
+
+label {
+  display: block;
+  text-align: center;
+}
